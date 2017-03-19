@@ -131,10 +131,10 @@ namespace lembrete
 			get { return selectedItem; }
 			set
 			{
-				selectedItem = value;
+				selectedItem = value; // pego item selecionado
 				App._navigationService.NavigateToPopupVisualizar(selectedItem);
-
 				this.Notify(nameof(SelectedItem));
+				selectedItem = null; // desselct o item da lista
 			}
 		}
 

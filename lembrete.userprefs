@@ -1,7 +1,7 @@
-﻿<Properties StartupConfiguration="{07245A1A-9423-4FC9-8F3C-4C183F73DAEE}|Default">
+﻿<Properties StartupConfiguration="{A89BBDC3-F936-4F58-81C3-04D4240835A2}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="lembrete/ViewModel/ListaLembretesViewModel.cs">
     <Files>
-      <File FileName="lembrete/ViewModel/ListaLembretesViewModel.cs" Line="61" Column="8" />
+      <File FileName="lembrete/ViewModel/ListaLembretesViewModel.cs" Line="139" Column="4" />
       <File FileName="lembrete/ViewModel/FormularioLembreteViewModel.cs" Line="173" Column="3" />
       <File FileName="lembrete/ViewModel/VisualizarLembretePopupViewModel.cs" Line="20" Column="4" />
     </Files>
@@ -13,5 +13,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.lembrete.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F0D845BE-95FD-4122-97F1-2CAA41B6FC27" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.lembrete.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.lembrete.Droid PreferredExecutionTarget="Android.0011713359" />
 </Properties>

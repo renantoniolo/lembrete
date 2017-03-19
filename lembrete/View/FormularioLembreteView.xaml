@@ -11,7 +11,6 @@
                 <Label Text="Titulo:" TextColor="#000" FontSize="12" Margin="20,0,20,0" ></Label>
             </StackLayout>
             <Entry Placeholder="Titulo" Text="{Binding Titulo}" HorizontalTextAlignment="Start" Margin="20,0,20,0"></Entry>
-
             <StackLayout HorizontalOptions="Start" Padding="5,10,0,0">
                 <Label Text="Descrição:" TextColor="#000" FontSize="12" Margin="20,0,20,0" ></Label>
             </StackLayout>

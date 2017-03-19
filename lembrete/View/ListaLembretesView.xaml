@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="lembrete.ListaLembretesView"
+	Title="Lembrete">
+	<ContentPage.ToolbarItems>
+		<ToolbarItem Icon="ic_add.png" Command="{Binding AdicionarLembreteCommand}"></ToolbarItem>
+	</ContentPage.ToolbarItems> 
+	<ContentPage.Content>
+		<StackLayout Padding="5">
+			<ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+				<StackLayout Padding="20,0,20,0" Orientation="Vertical" VerticalOptions="FillAndExpand" Opacity="0.4" BackgroundColor="#FFF">
+					<ActivityIndicator IsVisible="{Binding Load}" IsRunning="{Binding Load}" Color="#000" ></ActivityIndicator>
+					<ListView x:Name="ListaLembretes" IsPullToRefreshEnabled="true" ItemsSource="{Binding ListaLembretes}" SelectedItem="{Binding SelectedItem, Mode=TwoWay}" BackgroundColor="#FFF"  >
+						<ListView.ItemTemplate>
+							<DataTemplate>
+								<ViewCell x:Name="Item" >
+									<ViewCell.ContextActions>
+										<MenuItem Text="Delete" BindingContext="{Binding Source={x:Reference ListaLembretes}, Path=BindingContext}" Command="{Binding DeletarLembreteCommand}" CommandParameter="{Binding Source={x:Reference Item}, Path=BindingContext}" IsDestructive="True" />
+										<MenuItem Text="Editar" BindingContext="{Binding Source={x:Reference ListaLembretes}, Path=BindingContext}" Command="{Binding EditarLembreteCommand}" CommandParameter="{Binding Source={x:Reference Item}, Path=BindingContext}" />
+                					</ViewCell.ContextActions>
+									<StackLayout Orientation="Horizontal" HorizontalOptions="Fill" BackgroundColor="#FFF">
+										<Image Source="ic_event.png" HorizontalOptions="End" AbsoluteLayout.LayoutBounds="250.25, 0.25, 50, 50 "/>
+										<StackLayout Orientation="Vertical">
+											<Label Text="{Binding Titulo}" FontSize="16" TextColor="#000" FontAttributes="Bold" AbsoluteLayout.LayoutBounds="0.25, 0.25, 400, 40"/>
+											<Label Text = "{Binding DataLimite}" FontSize="12" TextColor="{Binding Cor}" AbsoluteLayout.LayoutBounds="50, 35, 200, 25"/>
+										</StackLayout>
+									</StackLayout>
+								</ViewCell>
+							</DataTemplate>
+						</ListView.ItemTemplate>						
+					</ListView>
+				</StackLayout>
+			</ScrollView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

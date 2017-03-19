@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Realm/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Realm.Sync/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Rg.Plugins.Popup.Droid/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Rg.Plugins.Popup.Platform/library_project_imports/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Plugin.LocalNotifications/library_project_imports/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Xamarin.Forms.Platform/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Realm/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Realm.Sync/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Rg.Plugins.Popup.Droid/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Rg.Plugins.Popup.Platform/library_project_imports/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/__library_projects__/Plugin.LocalNotifications/library_project_imports/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Realm.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Realm.Sync.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Rg.Plugins.Popup.Droid.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Rg.Plugins.Popup.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/renantoniolorocha/Projects/lembrete/Droid/obj/Debug/__library_projects__/Plugin.LocalNotifications.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

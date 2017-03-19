@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="lembrete.FormularioLembreteView"
+	Title="Adicionar Novo Lembrete">
+	<ContentPage.Content>
+		<StackLayout Padding="5">
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+        <StackLayout Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout HorizontalOptions="Start" Padding="5,10,0,0">
+                <Label Text="Titulo:" TextColor="#000" FontSize="12" Margin="20,0,20,0" ></Label>
+            </StackLayout>
+            <Entry Placeholder="Titulo" Text="{Binding Titulo}" HorizontalTextAlignment="Start" Margin="20,0,20,0"></Entry>
+
+            <StackLayout HorizontalOptions="Start" Padding="5,10,0,0">
+                <Label Text="Descrição:" TextColor="#000" FontSize="12" Margin="20,0,20,0" ></Label>
+            </StackLayout>
+            <Entry Placeholder="Descrição" Text="{Binding Descricao}" HorizontalTextAlignment="Start" Margin="20,0,20,0"></Entry>
+            <StackLayout HorizontalOptions="Start" Padding="5,10,0,0">
+                <Label Text="Data:" TextColor="#000" FontSize="12" Margin="20,0,20,0" ></Label>
+            </StackLayout>
+            <DatePicker MinimumDate="{Binding DataAtual}" Date="{Binding Data, Mode=TwoWay}" x:Name="Data" Margin="20,0,20,0"></DatePicker>
+			<StackLayout HorizontalOptions="Start" Padding="5,10,0,0">
+                <Label Text="Hora:" TextColor="#000" FontSize="12" Margin="20,0,20,0" ></Label>
+            </StackLayout>
+            <TimePicker Time="{Binding Hora, Mode=TwoWay}" x:Name="Hora" Margin="20,0,20,0"></TimePicker>
+			<ActivityIndicator IsVisible="{Binding Load}" IsRunning="{Binding Load}" Color="#009688" ></ActivityIndicator>
+            <Button Text="Cadastrar" Command="{Binding CadastrarCommand}"  Margin="20,20,20,0" FontSize="16" FontAttributes="Bold" TextColor="#000" BackgroundColor="#BDBDBD"></Button>
+            </StackLayout>
+            </ScrollView>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -19,7 +19,7 @@ namespace lembrete.Droid
 			TabLayoutResource = Resource.Layout.Tabbar;
 			ToolbarResource = Resource.Layout.Toolbar;
 
-			LocalNotificationsImplementation.NotificationIconId = Resource.Drawable.abc_btn_check_material;
+			LocalNotificationsImplementation.NotificationIconId = Resource.Drawable.ic_event;
 
 			base.OnCreate(bundle);
 
